@@ -3,8 +3,9 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 
-% greek hyphenation
-\usepackage{xgreek}
+\usepackage{xgreek}    % greek hyphenation
+\usepackage{titlepic}  % picture at title
+
 
 \hypersetup{pdfborder=0 0 0, colorlinks=true, linkcolor=red}
 \setmainfont[Ligatures=TeX]{Times New Roman}
@@ -15,6 +16,7 @@
 
 \newcommand\photo[1]{\noindent\includegraphics[width=\textwidth]{photos/#1}}
 
+\titlepic{\includegraphics[width=\textwidth]{photos/front.jpg}}
 \title{72ος Παράλληλος: Η μοναξιά του αναβάτη}
 \author{Ταξιδευτής}
 
